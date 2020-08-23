@@ -1,0 +1,50 @@
+*{
+    margin:0rem;
+    padding:0rem;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .login-container {
+    height: 100vh;
+    width: 100%; 
+    position: relative;
+  }
+  
+  .login-container .login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    border-radius: 3px;
+    background-color: lightgreen;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  .heading{
+    width:100%;
+    text-align: center;  
+    border-bottom: 1px solid;
+    padding: 3rem 4.5rem 1.5rem;
+  }
+  .btns{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4.5rem;
+  }
+  .btn-1{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    padding:.3rem .7rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    color:white;
+    text-decoration: none;
+    border-color: rgb(69, 187, 69);
+    background-color: rgb(21, 139, 21) ;
+  }

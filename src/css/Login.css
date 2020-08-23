@@ -1,0 +1,119 @@
+*{
+    margin:0rem;
+    padding:0rem;
+    box-sizing: border-box;
+  }
+  .container-1{
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .login-container-1{
+      width:100%;
+      height:100vh;
+      /* position: relative; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .login-form-1{
+    /* position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%); */
+    display: flex;
+    flex:2;
+    width:100%;
+    border-radius: 20px;
+    border-color: lightgreen;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    height:90%;
+    overflow:hidden;
+  }
+  .content{
+      width:50%;
+      background-color: rgb(69, 187, 69); 
+      color:white;
+  }
+  .form{
+      width:50%;
+      display:block;
+  }
+  .heading-1{
+      font-size: 3rem;
+      margin-top: 8rem;
+      margin-left: 2rem;
+  }
+  .heading-12{
+      margin-top: 2rem;
+      margin-left: 2rem;
+  }
+  .heading-secondary{
+      margin:2rem 12rem;
+      font-size: 2rem;
+      color:rgb(21, 139, 21); 
+  }
+  a{
+      text-decoration: none;
+      font-weight: bold;
+  }
+  .box{
+      margin:1rem 3rem;
+      border-radius: 25px;
+      width:80%;
+      padding: 0.8rem;
+      outline: none;
+      text-align: center;
+      border-color: rgb(21, 139, 21);   
+  }
+  .forgot{
+      float:right;
+      margin-right: 4rem;
+  }
+  .btn{
+    display: inline-block;
+    margin:2rem 3rem;;
+    border:1px solid;
+    width:80%;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 0.8rem;
+  }
+ .login{
+      background-image: linear-gradient(to right,lightgreen,rgb(21, 139, 21));
+  }
+  .facebook{
+      background-image: linear-gradient(to right,white,rgb(66,103,178));
+  }
+  .twitter{
+     background-image: linear-gradient(to right,white,rgb(29, 161, 242));
+    }
+  .join{
+      margin-top: 1rem;
+      margin-left: 10rem;
+      padding-bottom: 2rem;
+  }
+  label{
+      margin-left:3.5rem;
+      font-weight: bold;
+  }
+  .radio1{
+      margin-top:1rem;
+      margin-bottom:1rem;
+      margin-left: 3.5rem;
+      transform: scale(2);
+  }
+  .radio1:checked:after{
+      background-color:rgb(21, 139, 21) ;
+  }
+  .radio{
+      padding-left:.6rem;
+      font-weight: bold;
+  }
+  .image{
+      height:100px;
+  }
+  .image-1{
+      height:100px;
+      margin-left: 300px;
+  }
